@@ -1,0 +1,38 @@
+{
+  "name": "Custlr",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-app-intro-slider": "^0.2.4",
+    "react-native-auth0": "^1.2.2",
+    "react-native-device-info": "^0.21.5",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-image-zoom-viewer": "^2.2.5",
+    "react-native-photo-view": "^1.5.2",
+    "react-native-simple-auth": "^2.3.0",
+    "react-native-snap-carousel": "^3.7.0",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.0.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
